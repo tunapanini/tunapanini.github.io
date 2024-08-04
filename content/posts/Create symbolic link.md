@@ -1,7 +1,6 @@
 ---
 tags:
   - obsidian
-drafts: false
 ---
 
 # Unix 환경에서 심볼릭 링크 만들기

@@ -5,8 +5,8 @@ aliases:
 title: 🥝한은이의 디지털 정원🍅
 description: 한은이의 디지털 정원입니다.
 date: 2024-08-04
-drafts: false
-tags: []
+draft: false
+tags:
 ---
 
 ![[index-20240804221943932.png|프로필 사진]]

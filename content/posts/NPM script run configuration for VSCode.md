@@ -1,9 +1,6 @@
 ---
-aliases: 
 tags:
   - vscode
-date: 2024-08-04
-drafts: false
 ---
 
 

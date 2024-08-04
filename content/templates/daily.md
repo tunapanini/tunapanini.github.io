@@ -1,5 +1,5 @@
 ---
-drafts: true
+draft: true
 ---
 
 > [!EXAMPLE] New Today
