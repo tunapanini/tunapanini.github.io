@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "90ba59b594ec540c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f01cb95d0ce1bce2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8a5a12f02da6ed5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NPM script run configuration for VSCode.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5f1d8a7f3b19711e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7cdcfe8fa4101f27",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be4ff17596d37404",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "df540cd5a05480aa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f7a9a962cf0a2f03",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "12ddb475a4aba663",
+    "type": "split",
+    "children": [
+      {
+        "id": "d752f12a6e9a8275",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da9a50b6d926c634",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "NPM script run configuration for VSCode.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "627392d08f0aeabd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "NPM script run configuration for VSCode.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8330740ca2e79756",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ed2915c99c629e18",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "NPM script run configuration for VSCode.md"
+              }
+            }
+          },
+          {
+            "id": "e260a75ae281ec13",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "b8a5a12f02da6ed5",
+  "lastOpenFiles": [
+    "index.md",
+    "NPM script run configuration for VSCode.md",
+    "Education.md",
+    "templates/title.md",
+    "Work Experiences.md",
+    "templates",
+    "Welcome.md",
+    "index.html.md",
+    "index.html"
+  ]
+}

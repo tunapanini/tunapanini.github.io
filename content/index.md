@@ -9,6 +9,8 @@ drafts: false
 tags:
 ---
 
+안녕하세요. Software Engineer 한은이입니다.
+
 # Work Experiences
 
 - 비바리퍼블리카 Viva Republica (토스)
