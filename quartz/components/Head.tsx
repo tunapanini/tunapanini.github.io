@@ -20,7 +20,6 @@ export default (() => {
 
     return (
       <head>
-        <meta name="naver-site-verification" content="f6f0e4d5ca657e40e2e1d65f647a9c7d07d23795" />
         <title>{title}</title>
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
