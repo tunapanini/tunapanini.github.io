@@ -28,5 +28,6 @@ tags: []
 
 # Links to
 
-- [Posts](https://tunapanini.xyz/posts/)
+- [[posts/]]
+- [[tags/]]
 - [Github](https://github.com/tunapanini)
