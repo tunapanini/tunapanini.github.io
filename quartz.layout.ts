@@ -42,7 +42,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode(),
     // 탐색기 안 씀
     // Component.DesktopOnly(Component.Explorer()),
-    Component.RecentNotes(),
+    Component.DesktopOnly(Component.RecentNotes()),
   ],
   right: [
     Component.Graph(),
