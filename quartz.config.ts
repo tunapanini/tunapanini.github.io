@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "ko-KR",
     baseUrl: "tunapanini.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian", "_*"],
+    ignorePatterns: ["private", "templates", ".obsidian", "_*", "robot.txt"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
