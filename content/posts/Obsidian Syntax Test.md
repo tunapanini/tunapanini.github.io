@@ -1,4 +1,7 @@
-#obsidian
+---
+tags:
+  - obsidian
+---
 
 ## Mermaid
 
