@@ -119,5 +119,3 @@ Console 보는 것 외에는 너무 느려서 하기 힘듬.
 
 +) 2020/4/30 이후로 Visual Studio Online 서비스가 Visual Studio Codespaces로 이름이 바뀌었음. ([https://devblogs.microsoft.com/visualstudio/introducing-visual-studio-codespaces/](https://devblogs.microsoft.com/visualstudio/introducing-visual-studio-codespaces/))  
  
-
-출처: [https://tunapanini.tistory.com/entry/Visual-Studio-Code-Online-Browser-Preview로-웹페이지-확인하기](https://tunapanini.tistory.com/entry/Visual-Studio-Code-Online-Browser-Preview%EB%A1%9C-%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0)[TunaPanini:티스토리]
