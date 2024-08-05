@@ -1,5 +1,6 @@
 ---
 tags:
+  - shellscript
   - obsidian
 ---
 
