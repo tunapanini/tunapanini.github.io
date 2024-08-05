@@ -31,3 +31,4 @@ tags:
 - [[posts/]]
 - [[tags/]]
 - [Github](https://github.com/tunapanini)
+- [모든 도전이 계속될 수 있도록, 2020 토스 NEXT 개발자 채용 합격자를 만나다](https://blog.toss.im/article/next-developer-2021-interview)

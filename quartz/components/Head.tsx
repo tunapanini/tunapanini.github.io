@@ -21,6 +21,7 @@ export default (() => {
     return (
       <head>
         <title>{title}</title>
+        <meta name="google-adsense-account" content="ca-pub-6225662675575452"></meta>
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
