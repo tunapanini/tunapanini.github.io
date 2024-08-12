@@ -1,9 +1,10 @@
 ---
-title: "[React] JSX element type 'Component' does not have any construct or call signatures"
+title: JSX element type 'Component' does not have any construct or call signatures
 description: 
 date: 2020-06-12
 tags:
   - react
+  - error
 draft: false
 ---
 React로 인증 조건에 따라 렌더링하는 PrivateRoute 구현 중 아래와 같은 에러 발생
