@@ -1,6 +1,6 @@
 ---
 tags:
-  - obsidian
+  - Obsidian
 date: 2024-08-04
 ---
 

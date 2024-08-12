@@ -1,7 +1,7 @@
 ---
 tags:
   - shellscript
-  - obsidian
+  - Obsidian
 date: 2024-08-04
 title: 심볼릭 링크 만들기
 ---

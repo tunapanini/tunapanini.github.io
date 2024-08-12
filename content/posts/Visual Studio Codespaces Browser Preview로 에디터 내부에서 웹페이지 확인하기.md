@@ -3,9 +3,9 @@ title: "Visual Studio Codespaces: Browser Preview로 에디터 내부에서 웹�
 description: 
 date: 2020-05-04
 tags:
-  - vscode
-  - codespaces
-draft: true
+  - Codespaces
+  - VSCode
+draft: false
 ---
 아이패드로 가볍게 웹 프론트엔드 코딩하기 위한 방법 찾던 중, [Visual Studio Codespaces](https://visualstudio.microsoft.com/ko/services/visual-studio-online/) 공개미리 보기가 열려서 사용해 보고있다. VSCode Online에서 웹프로젝트를 Web App을 서빙하면 Port Forwarding하여 결과를 확인할 수 있는 페이지를 띄워준다.
 

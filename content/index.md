@@ -26,11 +26,12 @@ tags:
 
 - 숭실대학교 컴퓨터학부 학사, 2020.09 졸업
 
-# Contents
+# My Contents
 
-- [[posts/|포스팅]]
-- [[thoughts/|생각]]
-- [[tags/|tags]]
+- [[posts/]]
+- [[thoughts/]]
+- [[tags/]]
+
 # Links to
 
 - [Github](https://github.com/tunapanini)
