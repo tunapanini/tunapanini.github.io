@@ -22,6 +22,11 @@ export default (() => {
       <head>
         <title>{title}</title>
         <meta name="google-adsense-account" content="ca-pub-6225662675575452"></meta>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6225662675575452"
+          crossorigin="anonymous"
+        ></script>
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
