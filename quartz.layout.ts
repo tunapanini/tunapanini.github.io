@@ -41,7 +41,12 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     // 탐색기 안 씀
-    // Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(
+      Component.Explorer({
+        folderDefaultState: "collapsed",
+        folderClickBehavior: "link",
+      }),
+    ),
     Component.DesktopOnly(Component.RecentNotes()),
   ],
   right: [
