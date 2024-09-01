@@ -8,7 +8,7 @@ tags:
 draft: false
 ---
 
-## 배경
+# 배경
 
 한은이: `requests` 모듈 디버깅할 때 어케 하시나요…
 
@@ -25,14 +25,16 @@ response = requests.post(url=url, json={'haha': 'hoho'})
 
 👆 이거로 보긴 했는데, 구현없이 더 쉽게!! 깔끔!!하게 ON/OFF하는 방법을 원했음.
 
-## 방법
+# 방법
 
 아래 두가지를 짬뽕해서 사용함
 
 - `requests` 모듈의 [EventHooks](https://requests.readthedocs.io/en/latest/user/advanced/#event-hooks) (빌트인)
 - [[request-toolbelt]] 라이브러리의 [dump_all()](https://toolbelt.readthedocs.io/en/latest/dumputils.html#requests_toolbelt.utils.dump.dump_all) 유틸 함수
 
-## 예시 코드 (requests.Session)
+## 예시 코드
+
+### requests.Session 활용
 
 ```python
 import requests
@@ -54,7 +56,7 @@ response = session.post(url=url)
 
 ![[내 파이썬 어플리케이션에서 호출하는 API 깔끔하게 디버그 로깅 찍어보기-20240901222841832.png]]
 
-## 예시 코드 (requests.get 메서드)
+### request 메서드 활용 (e.g. `requests.get(...)` )
 
 세션을 사용하지 않고, 각 호출에서 훅을 넘길 수도 있다.
 
@@ -65,5 +67,8 @@ response = requests.get(url=url, hooks={'response': logging_hook})
 ```
 
 ![[내 파이썬 어플리케이션에서 호출하는 API 깔끔하게 디버그 로깅 찍어보기-20240901222804649.png]]
+
+[[example-request-toolbelts-with-event-hooks.ipynb]]
+
 # 참고
 [Advanced Usage — Requests 2.32.3 documentation](https://requests.readthedocs.io/en/latest/user/advanced/#event-hooks)
