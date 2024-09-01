@@ -40,7 +40,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    // 탐색기 안 씀
     Component.DesktopOnly(
       Component.Explorer({
         folderDefaultState: "collapsed",
