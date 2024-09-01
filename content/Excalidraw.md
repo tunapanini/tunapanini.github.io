@@ -1,6 +1,7 @@
 ---
 tags:
   - 🌻
+  - tool
 ---
 [Excalidraw | Hand-drawn look & feel • Collaborative • Secure](https://excalidraw.com)
 

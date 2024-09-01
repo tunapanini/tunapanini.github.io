@@ -1,9 +1,9 @@
 ---
 tags:
   - co-working
-  - TTD
   - 🌻
-  - CI
+  - tdd
+  - ci
 ---
 
 

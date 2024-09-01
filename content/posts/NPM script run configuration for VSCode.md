@@ -1,6 +1,7 @@
 ---
 tags:
-  - VSCode
+  - npm
+  - vscode
 date: 2024-08-04
 ---
 

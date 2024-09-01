@@ -3,8 +3,9 @@ title: JSX element type 'Component' does not have any construct or call signatur
 description: 
 date: 2020-06-12
 tags:
-  - React
-  - Troubleshooting
+  - typescript
+  - react
+  - troubleshooting
 draft: false
 ---
 React로 인증 조건에 따라 렌더링하는 PrivateRoute 구현 중 아래와 같은 에러 발생

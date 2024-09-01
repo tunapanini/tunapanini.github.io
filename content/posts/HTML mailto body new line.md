@@ -1,5 +1,5 @@
 ---
-title: "[HTML] mailto: body 내용에 줄바꿈 넣기"
+title: "mailto: body 내용에 줄바꿈 넣기"
 description: 
 date: 2020-06-03
 tags:

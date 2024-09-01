@@ -3,7 +3,9 @@ title: "[Bubblewrap] Trusted Web Activity(TWA) 프로젝트를 통해 Progressiv
 description: 
 date: 2020-05-26
 tags:
-  - PWA
+  - typescript
+  - react
+  - pwa
 draft: false
 ---
 Trusted Web Activity(TWA)는 Custom Tabs를 기반으로한 프로토콜을 사용하여 Progressive Web App(PWA) 또는 다른 웹앱 컨텐츠를 열 수 있는 새로운 방법입니다.

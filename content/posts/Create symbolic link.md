@@ -20,5 +20,11 @@ ln -s <source_file> <myfile>
 ln -s <absolute-path-to-your-vault>/.obsidian <absolute-path-to-your-vault>/.obsidian
 ```
 
+> ![Note]
+> 심볼릭 링크로 옵시디언 설정 공유하는 건… 모바일에선 적용이 안 된다ㅠㅠ 
+> 
+> 다른 방법 찾기
+
+
 # References
 - https://kb.iu.edu/d/abbe
