@@ -78,10 +78,72 @@ $$ m \times 10^-n $$
 
 
 
+## 자료구조
+
+### 스택
+
+- push / pop
+- LIFO: Last In First Out
+- 🚐 뒤로가기 (e.g. 브라우저, 길찾기 방문 경로)
+
+### 큐
+
+- enqueue / deque
+- FIFO: First In First Out
+- 변형 큐
+	- 원형
+	- 덱(deque): double-ended queue
+	- priority queue
+
+### tree
+
+- 구성요소
+	- node
+	- edge(link)
+- 노드를 가르키는 용어
+	- parent node
+	- child node
+	- sibling node
+	- ancestor node
+	- descendant node
+	- root node
+	- leaf node
+- 트리에 대한 용어
+	- degree
+	- level(depth)
+		- root node가 level 0
+	- height = highest level
+- tree traversal
+	- 종류
+		- 1. 전위 순회(preorder traversal)
+		- 2. 중위 순회(inorder traversal)
+		- 3. 후위 순회(postorder traversal)
+		- 4. level0order traversal
+	- 구현: 재귀…
+- 종류
+	- binary tree
+		- skewed binary tree
+		- full binray tree
+	- perfect binary tree
+	- complete binary tree
+		- 마지막 level node 들이 왼쪽부터 채워짐
+
+탐색 트리
+
+- binary search tree
+	- O(log n)
+	- worst: skewed binary tree인 경우 O(n)
+- heap
+	- O(log n)
+	- 최대힙 / 최소힙
+		- 부모 <> 자식 우선순위 순서(크기)에 따라
+	- 🚐 우선순위 큐
+
+- [ ] TBD
+
 ## 대기중
 
 - 운영체제
-- 자료구조
 - 네트워크
 - 데이터베이스
 
