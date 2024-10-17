@@ -1,6 +1,7 @@
 ---
 tags:
   - 🌱
+  - python
 draft: false
 date: 2024-10-10
 ---
