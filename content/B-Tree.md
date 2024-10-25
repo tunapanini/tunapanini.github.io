@@ -1,0 +1,1 @@
+B는 이진(Binray)이 아닌 Balanced의 약자이다.

@@ -3,7 +3,7 @@ aliases:
   - home
   - 홈
 title: 🥝한은이의 디지털 정원🍅
-description: 한은이의 디지털 정원입니다.
+description: 개발자 한은이의 디지털 정원입니다.
 date: 2024-08-04
 draft: false
 tags:
@@ -20,6 +20,10 @@ tags:
 
 
 안녕하세요. Software Engineer 한은이입니다. | Hello, I’m Eunhee Han, a Software Engineer.
+
+# Contact Information
+
+Email: tunapanini@kakao.com
 
 # Work Experiences
 
