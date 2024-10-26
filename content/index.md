@@ -44,10 +44,10 @@ _Graduated September 2020_
 - ⚛️ [[tags/react/|React]] & [[tags/typescript|TypeScript]]
 # My Contents
 
-
 - [[tags/|🏷 태그 | tags]]
 - [[thoughts/|💭 생각들 | thoughts]]
 - [[posts/|🖋 게시글 | posts]]
+- [[notes/|✏모든 노트 | notes]]
 
 # Links to
 

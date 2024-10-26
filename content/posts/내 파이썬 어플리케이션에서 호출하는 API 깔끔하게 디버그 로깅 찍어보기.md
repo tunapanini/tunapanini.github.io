@@ -32,7 +32,7 @@ response = requests.post(url=url, json={'haha': 'hoho'})
 아래 두가지를 조합해서 사용하기로 함
 
 1. requests 모듈의 [EventHooks](https://requests.readthedocs.io/en/latest/user/advanced/#event-hooks) 
-2. [[request-toolbelt]] 라이브러리의 `dump_all()`) 유틸 함수
+2. [[notes/request-toolbelt]] 라이브러리의 `dump_all()`) 유틸 함수
 
 ## 예시 코드
 

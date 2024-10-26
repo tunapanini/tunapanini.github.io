@@ -19,7 +19,7 @@ date: 2024-10-10
 ### 프로세스 기반 병렬 처리하기
 
 - 각 프로세스는 독립된 메모리 공간과 [[GIL]]을 가지므로, GIL의 제약을 받지 않고 병렬 처리가 가능합니다.
-- [[Uvicorn]]의 워커 수를 늘리거나, 작업을 별도의 프로세스로 분리하여 처리합니다.
+- [[notes/Uvicorn]]의 워커 수를 늘리거나, 작업을 별도의 프로세스로 분리하여 처리합니다.
 - [asyncio](https://docs.python.org/3/library/asyncio.html)의 `run_in_executor`와 `ThreadPoolExecutor` / `ProcessPoolExecutor`를 사용하여 CPU 바운드 작업을 비동기적으로 프로세스 풀에서 실행할 수 있습니다. (참고: [Event Loop — Python 3.13.0 documentation](https://docs.python.org/3/library/asyncio-eventloop.html#asyncio.loop.run_in_executor))
 
 ### 백그라운드 작업으로 분리하기

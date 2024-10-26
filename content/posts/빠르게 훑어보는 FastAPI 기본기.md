@@ -25,7 +25,7 @@ async def read_item(item_id: int, q: str = None):
     return {"item_id": item_id, "q": q}
 ```
   
-[[Uvicorn]]으로 리로드 옵션과 로컬 실행
+[[notes/Uvicorn]]으로 리로드 옵션과 로컬 실행
 
 ```sh
 uvicorn main:app --reload
@@ -111,7 +111,7 @@ async def add_process_time_header(request, call_next):
 
 ## # Django와의 주요 차이점
 
-- **비동기 지원**: FastAPI는 [[ASGI]]를 기반으로 비동기를 기본 지원하지만, [[Django]]는 기본적으로 [[WSGI]]를 사용하며 동기적으로 동작합니다.
+- **비동기 지원**: FastAPI는 [[ASGI]]를 기반으로 비동기를 기본 지원하지만, [[Django]]는 기본적으로 [[notes/WSGI]]를 사용하며 동기적으로 동작합니다.
 - **타입 힌트 활용**: FastAPI는 타입 힌트를 적극 활용하여 개발 생산성과 코드 안정성을 높입니다.
 - **성능**: FastAPI는 높은 성능을 제공하며, 마이크로서비스나 고성능 API 서버에 적합합니다.
 - **내장 기능**: [[Django]]는 ORM, 인증, 어드민 등 다양한 기능을 내장하고 있지만, FastAPI는 경량화에 초점을 맞추어 필요한 기능을 선택적으로 사용합니다.
@@ -122,4 +122,4 @@ async def add_process_time_header(request, call_next):
 - **Starlette**를 기반으로 하며, 높은 성능과 비동기 기능을 제공합니다.
 
 # 관련
-- [[Django Ninja]]
+- [[notes/Django Ninja]]

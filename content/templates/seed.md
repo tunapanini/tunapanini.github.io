@@ -1,2 +1,8 @@
-#seed
+---
+date: 
+draft: 
+tags:
+  - 🌱
+---
+
 
