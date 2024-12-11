@@ -8,12 +8,6 @@ date: 2024-08-04
 draft: false
 tags:
 ---
-> [!Note]
-> 
-> 가로 길이 1440px 이상에서 가장 잘 보입니다!
->
-> Best viewed at a width of 1440px or higher!
-
 
 
 ![[index-20240804221943932.png|프로필 사진]]
@@ -28,7 +22,7 @@ Email: tunapanini@kakao.com
 # Work Experiences
 
 - 비바리퍼블리카 Viva Republica (토스)
-  - 2020.09 - _재직중 Present_ 
+  - 2020.09 - 2024.11
 - 코인원 Coinone
   - 2017.04 - 2020.02
 
@@ -53,3 +47,10 @@ _Graduated September 2020_
 
 - [Github](https://github.com/tunapanini)
 - [토스 첫 NEXT 합격자 인터뷰 - 모든 도전이 계속될 수 있도록, 2020 토스 NEXT 개발자 채용 합격자를 만나다 | Interview with the First NEXT Successful Candidate at Toss](https://blog.toss.im/article/next-developer-2021-interview)
+
+> [!Note]
+> 
+> 가로 길이 1440px 이상에서 가장 잘 보입니다!
+>
+> Best viewed at a width of 1440px or higher!
+
