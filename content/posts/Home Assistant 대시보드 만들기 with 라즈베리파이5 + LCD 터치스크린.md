@@ -70,17 +70,13 @@ sudo apt-get update -y
 
 인터렉티브 설치를 지원함. 
 
-기존 `/etc/hosts`
-
-![[attachments/Home Assistant 대시보드 만들기 with 라즈베리파이5 + LCD 터치스크린-20250209213828855.png]]
-
 설정을 하는데 값이 맞는 건지 잘 모르겠음.
 
 OVERWITE 되는 것들 백업 해두고, 일단 진행.
 
-![[attachments/Home Assistant 대시보드 만들기 with 라즈베리파이5 + LCD 터치스크린-20250209213712092.png]]
-
 ![[attachments/Home Assistant 대시보드 만들기 with 라즈베리파이5 + LCD 터치스크린-20250209214611716.png]]
+
+중간에 에러남
 
 추측하기로는 pimox 가 debian bullseye 을 지원하는데, 라즈베리파이5와 호환되는 최신 버전은 bookworm 이어서 안 되는 거 같음. 
 
