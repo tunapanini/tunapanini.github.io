@@ -47,10 +47,3 @@ _Graduated September 2020_
 
 - [Github](https://github.com/tunapanini)
 - [토스 첫 NEXT 합격자 인터뷰 - 모든 도전이 계속될 수 있도록, 2020 토스 NEXT 개발자 채용 합격자를 만나다 | Interview with the First NEXT Successful Candidate at Toss](https://blog.toss.im/article/next-developer-2021-interview)
-
-> [!Note]
-> 
-> 가로 길이 1440px 이상에서 가장 잘 보입니다!
->
-> Best viewed at a width of 1440px or higher!
-
