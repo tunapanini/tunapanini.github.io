@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     locale: "ko-KR",
     baseUrl: "tunapanini.xyz",
     ignorePatterns: ["private", "templates", ".obsidian", "_*"],
-    defaultDateType: "modified",
+    defaultDateType: "git",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
