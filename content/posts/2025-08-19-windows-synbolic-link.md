@@ -15,7 +15,7 @@ PowerShell을 관리자로 실행
 New-Item -ItemType SymbolicLink -Path "C:\Users\User01\Obsidian\tunapanini.xyz" -Target "C:\Users\User01\workspace\tunapanini.github.io\content"
 ```
 
-![[Pasted image 20250819184140.png|]]
+![[Pasted image 20250819184140.png]]
 
 타겟에 파일 폴더가 생긴 모습
 
