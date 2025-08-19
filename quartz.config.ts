@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     locale: "ko-KR",
     baseUrl: "tunapanini.xyz",
     ignorePatterns: ["private", "templates", ".obsidian", "_*"],
-    defaultDateType: "git",
+    defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -57,7 +57,7 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"],
+        priority: ["frontmatter", "git", "filesystem"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
