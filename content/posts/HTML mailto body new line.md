@@ -1,6 +1,6 @@
 ---
 title: "mailto: body 내용에 줄바꿈 넣기"
-description: 
+description: "mailto 링크의 body에 줄바꿈을 넣기 위한 URL 인코딩 방법과 RFC2368 명세"
 date: 2020-06-03
 tags:
   - HTML

@@ -1,6 +1,6 @@
 ---
 title: JSX element type 'Component' does not have any construct or call signatures
-description: 
+description: "React PrivateRoute 구현 시 발생하는 TS2604 에러의 원인과 Composition/Inheritance 해결 방법"
 date: 2020-06-12
 tags:
   - typescript
@@ -8,7 +8,7 @@ tags:
   - troubleshooting
 draft: false
 ---
-React로 인증 조건에 따라 렌더링하는 PrivateRoute 구현 중 아래와 같은 에러 발생
+React로 인증 조건에 따라 렌더링하는 PrivateRoute를 구현하던 중 아래와 같은 에러가 발생했습니다.
 
 ```
 JSX 요소 형식 'Component'에 구문 또는 호출 시그니처가 없습니다.ts(2604)
@@ -17,7 +17,7 @@ JSX 요소 형식 'Component'에 구문 또는 호출 시그니처가 없습니�
 
 ![](https://blog.kakaocdn.net/dn/cvWJlf/btqENAvKsnn/j4x9To2rN14zoDcODyqqd0/img.png)
 
-react-router-dom `RouteProps` 인터페이스에서 `component` 가 optional 이기 때문에 TS2604 에러가 난다.
+react-router-dom `RouteProps` 인터페이스에서 `component`가 optional이기 때문에 TS2604 에러가 발생합니다.
 
 ```js
 export interface RouteProps {
@@ -32,7 +32,7 @@ export interface RouteProps {
 }
 ```
 
-`component` 가 있는지를 먼저 체크해주는 코드를 두면 에러가 나지 않는다.
+`component`가 존재하는지를 먼저 체크하는 코드를 추가하면 에러가 해결됩니다.
 
 ```js
 /* eslint-disable react/jsx-props-no-spreading */
@@ -66,8 +66,8 @@ function PrivateRoute({
 export default PrivateRoute;
 ```
 
-하지만 RouteProps 인터페이스에 인증 여부만 추가할 거면 Route의 기능을 그대로 사용하는 게 좋을 것 같다.  
-   
+하지만 RouteProps 인터페이스에 인증 여부만 추가할 것이라면 Route의 기능을 그대로 사용하는 것이 더 좋습니다.
+
 1. Composition 방식으로 구현
 
 ```js
@@ -122,4 +122,3 @@ class PrivateRoute extends Route<Props> {
 
 export default PrivateRoute;
 ```
-
